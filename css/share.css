@@ -1,0 +1,233 @@
+/* ＝＝預載設定＝＝ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+/* ＝＝共用設定＝＝ */
+:root {
+  --global-font: "Noto Sans TC", sans-serif;
+
+  --desktop-container: 1296px;
+
+  --primary_color-100: #F5FEE7;
+  --primary_color-200: #E8FEC5;
+  --primary_color-300: #C0FA73;
+  --primary_color-400: #57A203;
+  --primary_color-500: #477A11;
+
+  --neutral_color-0: #FFFFFF;
+  --neutral_color-100: #F8F9FA;
+  --neutral_color-200: #E9ECEF;
+  --neutral_color-300: #DEE2E6;
+  --neutral_color-400: #CED4DA;
+  --neutral_color-500: #ADB5BD;
+  --neutral_color-600: #6C757D;
+  --neutral_color-700: #495057;
+  --neutral_color-800: #343A40;
+  --neutral_color-900: #212529;
+
+  --danger_color-100: #FCF1F1;
+  --danger_color-200: #EBA7A7;
+  --danger_color-300: #E9ECEF;
+
+  --success_color-100: #EFF8F4;
+  --success_color-200: #9AD1BA;
+  --success_color-300: #36A375;
+
+  --warning_color-100: #FEF6EC;
+  --warning_color-200: #F9C588;
+  --warning_color-300: #F38B12;
+
+  --info_color-100: #EEF5FC;
+  --info_color-200: #97C3ED;
+  --info_color-300: #3087DB;
+
+  --display-1-font-size: 4rem;
+  --display-2-font-size: 3rem;
+  --tw-headings-h1: 2.5rem;
+  --tw-headings-h2: 2rem;
+  --tw-headings-h3: 1.75rem;
+  --tw-headings-h4: 1.5rem;
+  --tw-headings-h5: 1.25rem;
+  --tw-headings-h6: 1rem;
+
+  --tw-label-lg: 1.25rem;
+  --tw-label-md: 1rem;
+  --tw-label-sm: 0.875rem;
+  --tw-label-xs: 0.75rem;
+
+  --tw-paragraph-lg: 1.25rem;
+  --tw-paragraph-md: 1rem;
+  --tw-paragraph-sm: 0.875rem;
+  --tw-paragraph-xs: 0.75rem;
+
+  --tw-heading-line-height: 1.2;
+  --tw-label-line-height: 1.5;
+  --tw-letter-spacing: 0.05;
+
+  --spacing-xxs: 4px;
+  --spacing-xs: 8px;
+  --spacing-s: 12px;
+  --spacing-m: 16px;
+  --spacing-l: 24px; 
+  --spacing-xl: 32px;
+  --spacing-2xl: 40px;
+  --spacing-3xl: 48px;
+  --spacing-4xl: 56px;
+  --spacing-5xl: 64px;
+  --spacing-6xl: 80px;
+  --spacing-s-burden: -12px;
+
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-rounded: 100px;
+
+  --text-primary: var(--neutral_color-900);
+  --text-secondary: var(--neutral_color-600);
+  --text-muted: var(--neutral_color-500);
+  --text-highlight: var(--primary_color-400);
+  --text-on-dark: var(--neutral_color-0);
+}
+
+*,*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--global-font);
+    line-height: var(--tw-heading-line-height);
+    letter-spacing: var(--tw-letter-spacing);
+    color: var(--neutral_color-900);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a:link, a:visited {
+  color: var(--primary_color-400);
+}
+
+a:hover, a:active {
+  color: var(--primary_color-500);
+}
+
+/* ＝＝元件設定＝＝ */
+.container {
+  max-width: var(--desktop-container);
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.mb-4 {
+  margin-bottom: var(--spacing-xxs);
+}
+
+.mb-12 {
+  margin-bottom: var(--spacing-s);
+}
+
+.mb-16 {
+  margin-bottom: var(--spacing-m);
+}
+
+.mb-24 {
+  margin-bottom: var(--spacing-l);
+}
+
+.mb-48 {
+  margin-bottom: var(--spacing-3xl);
+}
+
+.mb-64 {
+  margin-bottom: var(--spacing-5xl);
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.me-auto {
+  margin-right: auto;
+}
+
+.row {
+  margin-left: var(--spacing-s-burden);
+  margin-right: var(--spacing-s-burden);
+}
+
+.col-3 {
+  width: calc(100%/12*3);
+  padding-left: var(--spacing-s);
+  padding-right: var(--spacing-s);
+}
+
+.col-7 {
+  width: calc(100%/12*7);
+  padding-left: var(--spacing-s);
+  padding-right: var(--spacing-s);
+}
+
+.col-8 {
+  width: calc(100%/12*8);
+  padding-left: var(--spacing-s);
+  padding-right: var(--spacing-s);
+}
+
+.col-10 {
+  width: calc(100%/12*10);
+  padding-left: var(--spacing-s);
+  padding-right: var(--spacing-s);
+}
+
+h1 {
+  font-size: var(--tw-headings-h1);
+  line-height: var(--tw-heading-line-height);
+}
+
+.h2 {
+  font-size: var(--tw-headings-h2);
+  line-height: var(--tw-heading-line-height);
+}
+
+.h3 {
+  font-size: var(--tw-headings-h3);
+  line-height: var(--tw-heading-line-height);
+}
+
+.h4 {
+  font-size: var(--tw-headings-h4);
+  line-height: var(--tw-heading-line-height);
+}
+
+.h5 {
+  font-size: var(--tw-headings-h5);
+  line-height: var(--tw-heading-line-height);
+}
+
+.h6 {
+  font-size: var(--tw-headings-h6);
+  line-height: var(--tw-heading-line-height);
+}
+
+.p {
+  font-size: var(--tw-paragraph-md);
+  line-height: var(--tw-label-line-height);
+  letter-spacing: var(--tw-letter-spacing);
+}
+
+.p-lable-md {
+  font-size: var(--tw-label-md);
+  line-height: var(--tw-label-line-height);
+  letter-spacing: var(--tw-letter-spacing);
+}
+
+.p-lable-sm {
+  font-size: var(--tw-paragraph-sm);
+  line-height: var(--tw-label-line-height);
+  letter-spacing: var(--tw-letter-spacing);
+}

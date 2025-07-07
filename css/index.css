@@ -1,0 +1,106 @@
+.content-bottom-line {
+    padding-bottom: var(--spacing-3xl);
+    border-bottom: 1px solid var(--neutral_color-300);
+}
+
+/* Header */
+.header {
+    background: transparent url("../imag/hero.png") no-repeat center center / cover;
+}
+
+.pageTitle {
+    padding: 151px 0;
+}
+
+.pageTitle h1, .pageTitle h3 {
+    color: white;
+    text-align: center;
+}
+
+/* 區塊引用 */
+.blockQuote {
+    background-color: var(--primary_color-100);
+    padding: var(--spacing-xl);
+    border-radius: var(--spacing-s);
+    text-align: center;
+}
+
+.blockQuote h5 {
+    color: var(--primary_color-400);
+}
+
+/* 產品介紹 */
+.brandIntro img {
+    display: block;
+}
+
+.brandIntro h5 {
+    color: var(--primary_color-400);
+}
+
+/* 品牌歷程 */
+.history {
+    list-style: inside disc;
+}
+
+.history li {
+    padding-left: 20px;
+}
+
+/* 品牌理念 */
+.brandConcept li {
+    padding-left: 12px;
+    position: relative;
+    z-index: 1;
+}
+
+.brandConcept li::before {
+    content:"";
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background-color: var(--neutral_color-300);    
+}
+
+/* 品牌小故事 */
+.brandStory li i {
+    color: var(--primary_color-400);
+    margin-right: 10.5px;
+}
+
+.brandStory li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.brandStory li a::before {
+    content: "";
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    bottom: 6px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--primary_color-400);
+}
+
+/* footer */
+.footer {
+    background-color: var(--neutral_color-100);
+}
+
+.copyright {
+    padding-top: var(--spacing-5xl);
+    padding-bottom: var(--spacing-5xl);
+}
+
+.copyright p {
+    text-align: center;
+    color: var(--neutral_color-600);
+}
