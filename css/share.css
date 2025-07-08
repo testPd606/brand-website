@@ -59,9 +59,13 @@
   --tw-paragraph-sm: 0.875rem;
   --tw-paragraph-xs: 0.75rem;
 
+  --tw-regular: 400;
+  --tw-Medium: 500;
+  --tw-Bold: 700;
+
   --tw-heading-line-height: 1.2;
   --tw-label-line-height: 1.5;
-  --tw-letter-spacing: 0.05;
+  --tw-letter-spacing: 0.05em;
 
   --spacing-xxs: 4px;
   --spacing-xs: 8px;
@@ -94,7 +98,7 @@
 
 body {
     font-family: var(--global-font);
-    line-height: var(--tw-heading-line-height);
+    line-height: var(--tw-label-line-height);
     letter-spacing: var(--tw-letter-spacing);
     color: var(--neutral_color-900);
 }
@@ -105,12 +109,8 @@ img {
     vertical-align: middle;
 }
 
-a:link, a:visited {
+a {
   color: var(--primary_color-400);
-}
-
-a:hover, a:active {
-  color: var(--primary_color-500);
 }
 
 /* ＝＝元件設定＝＝ */
@@ -121,6 +121,27 @@ a:hover, a:active {
 
 .d-flex {
   display: flex;
+}
+
+.borderRadius-12 {
+  border-radius: var(--radius-md);
+}
+
+.p-32 {
+  padding: var(--spacing-xl);
+}
+
+.pl-12 {
+  padding-left: var(--spacing-s)
+}
+
+.pb-48 {
+  padding-bottom: var(--spacing-3xl);
+}
+
+.py-64 {
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .mb-4 {
@@ -147,11 +168,8 @@ a:hover, a:active {
   margin-bottom: var(--spacing-5xl);
 }
 
-.ms-auto {
+.mx-auto {
   margin-left: auto;
-}
-
-.me-auto {
   margin-right: auto;
 }
 
@@ -184,50 +202,55 @@ a:hover, a:active {
   padding-right: var(--spacing-s);
 }
 
-h1 {
-  font-size: var(--tw-headings-h1);
+.h1, .h2, .h3, .h4, .h5, .h6 {
   line-height: var(--tw-heading-line-height);
+}
+
+h1 {
+  font-size: var(--tw-headings-h1);  
 }
 
 .h2 {
   font-size: var(--tw-headings-h2);
-  line-height: var(--tw-heading-line-height);
 }
 
 .h3 {
   font-size: var(--tw-headings-h3);
-  line-height: var(--tw-heading-line-height);
 }
 
 .h4 {
   font-size: var(--tw-headings-h4);
-  line-height: var(--tw-heading-line-height);
 }
 
 .h5 {
   font-size: var(--tw-headings-h5);
-  line-height: var(--tw-heading-line-height);
 }
 
 .h6 {
   font-size: var(--tw-headings-h6);
-  line-height: var(--tw-heading-line-height);
 }
 
-.p {
+.tw-paragraph-md {
   font-size: var(--tw-paragraph-md);
-  line-height: var(--tw-label-line-height);
-  letter-spacing: var(--tw-letter-spacing);
 }
 
-.p-lable-md {
+.tw-label-md {
   font-size: var(--tw-label-md);
-  line-height: var(--tw-label-line-height);
-  letter-spacing: var(--tw-letter-spacing);
+  font-weight: var(--tw-Medium);
 }
 
-.p-lable-sm {
+.tw-paragraph-sm {
   font-size: var(--tw-paragraph-sm);
-  line-height: var(--tw-label-line-height);
-  letter-spacing: var(--tw-letter-spacing);
+}
+
+.text-neutral-white {
+  color: var(--neutral_color-0);
+}
+
+.text-primary-400 {
+  color: var(--primary_color-400);
+}
+
+.bk-primary-100 {
+  background-color: var(--primary_color-100);
 }
