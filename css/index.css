@@ -1,3 +1,7 @@
+a {
+  color: var(--primary_color-400);
+}
+
 .content-bottom-line {
     border-bottom: 1px solid var(--neutral_color-300);
 }
@@ -36,7 +40,7 @@
 
 /* 品牌小故事 */
 .brandStory-items {
-    display: block;
+    text-decoration: underline;
     text-underline-offset: 8px;
 }
 

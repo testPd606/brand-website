@@ -111,7 +111,8 @@ img {
 }
 
 a {
-  color: var(--primary_color-400);
+  color: var(--neutral_color-900);
+  text-decoration: none;
 }
 
 .container {
@@ -121,6 +122,10 @@ a {
 
 .footer {
   text-align: center;
+}
+
+.d-block {
+  display: block;
 }
 
 .d-flex {
@@ -157,6 +162,11 @@ a {
 
 .pb-48 {
   padding-bottom: var(--spacing-3xl);
+}
+
+.py-8 {
+  padding-top: var(--spacing-xs);
+  padding-bottom: var(--spacing-xs);
 }
 
 .py-12 {
@@ -331,6 +341,10 @@ h1 {
 }
 
 /* 麵包屑 */
+.breadcrumb-items .disabled {
+  color: var(--neutral_color-600);
+}
+
 .breadcrumb-items + .breadcrumb-items::before {
   content:"/";
   padding-left: var(--spacing-s);

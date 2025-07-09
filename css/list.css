@@ -1,0 +1,4 @@
+/* 商品選單列 */
+.menu-list-link.active {
+    color: var(--primary_color-400);
+}
