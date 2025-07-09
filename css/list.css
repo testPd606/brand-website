@@ -1,4 +1,13 @@
-/* 商品選單列 */
-.menu-list-link.active {
+/* 商品選單 */
+.menu-title {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.menu-items:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.menu-link.active {
     color: var(--primary_color-400);
 }
