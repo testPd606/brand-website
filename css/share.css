@@ -59,9 +59,10 @@
   --tw-paragraph-sm: 0.875rem;
   --tw-paragraph-xs: 0.75rem;
 
-  --tw-regular: 400;
-  --tw-Medium: 500;
-  --tw-Bold: 700;
+  --tw-weight-400: 400;
+  --tw-weight-500: 500;
+  --tw-weight-600: 600;
+  --tw-weight-700: 700;
 
   --tw-heading-line-height: 1.2;
   --tw-label-line-height: 1.5;
@@ -126,7 +127,11 @@ a {
   display: flex;
 }
 
-.justify-content-sb {
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-between {
   justify-content: space-between;
 }
 
@@ -136,6 +141,10 @@ a {
 
 .borderRadius-12 {
   border-radius: var(--radius-md);
+}
+
+.p-12 {
+  padding: var(--spacing-s);
 }
 
 .p-32 {
@@ -150,9 +159,27 @@ a {
   padding-bottom: var(--spacing-3xl);
 }
 
+.py-12 {
+  padding-top: var(--spacing-s);
+  padding-bottom: var(--spacing-s);
+}
+
+.py-16 {
+  padding-top: var(--spacing-m);
+  padding-bottom: var(--spacing-m);
+}
+
 .py-64 {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: var(--spacing-5xl);
+  padding-bottom: var(--spacing-5xl);
+}
+
+.ms-40 {
+  margin-right: var(--spacing-2xl);
+}
+
+.ms-48 {
+  margin-right: var(--spacing-3xl);
 }
 
 .mb-4 {
@@ -257,17 +284,19 @@ h1 {
   font-size: var(--tw-headings-h6);
 }
 
-.tw-paragraph-md {
-  font-size: var(--tw-paragraph-md);
-}
-
 .tw-label-md {
   font-size: var(--tw-label-md);
-  font-weight: var(--tw-Medium);
+  font-weight: var(--tw-weight-500);
+}
+
+.tw-paragraph-md {
+  font-size: var(--tw-paragraph-md);
+  font-weight: var(--tw-weight-400);
 }
 
 .tw-paragraph-sm {
   font-size: var(--tw-paragraph-sm);
+  font-weight: var(--tw-weight-400);
 }
 
 .text-neutral-white {
@@ -276,6 +305,10 @@ h1 {
 
 .text-neutral-600 {
   color: var(--neutral_color-600);
+}
+
+.text-neutral-900 {
+  color: var(--neutral_color-900);
 }
 
 .text-primary-400 {
@@ -288,4 +321,18 @@ h1 {
 
 .bk-neutral-100 {
   background-color: var(--neutral_color-100);
+}
+
+/* ==元件設定== */
+/* 主選單 */
+.navigationBar-link {
+  font-weight: var(--tw-weight-500);
+  text-decoration: none;
+}
+
+/* 麵包屑 */
+.breadcrumb-items + .breadcrumb-items::before {
+  content:"/";
+  padding-left: var(--spacing-s);
+  padding-right: var(--spacing-s);
 }
