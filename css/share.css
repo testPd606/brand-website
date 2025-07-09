@@ -118,6 +118,10 @@ a {
   margin: 0 auto;
 }
 
+.footer {
+  text-align: center;
+}
+
 .d-flex {
   display: flex;
 }
@@ -280,4 +284,8 @@ h1 {
 
 .bk-primary-100 {
   background-color: var(--primary_color-100);
+}
+
+.bk-neutral-100 {
+  background-color: var(--neutral_color-100);
 }

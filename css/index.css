@@ -44,9 +44,3 @@
     color: var(--primary_color-400);
     margin-right: 10.5px;
 }
-
-/* footer */
-.footer {
-    background-color: var(--neutral_color-100);
-    text-align: center;
-}
