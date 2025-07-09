@@ -48,14 +48,5 @@
 /* footer */
 .footer {
     background-color: var(--neutral_color-100);
-}
-
-.copyright {
-    padding-top: var(--spacing-5xl);
-    padding-bottom: var(--spacing-5xl);
-}
-
-.copyright p {
     text-align: center;
-    color: var(--neutral_color-600);
 }
