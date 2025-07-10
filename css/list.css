@@ -11,3 +11,16 @@
 .menu-link.active {
     color: var(--primary_color-400);
 }
+
+/* 分頁 */
+.page-link.btn {
+    padding: 8px 15px;
+}
+
+.page-link.active {
+    background-color: var(--primary_color-300);
+}
+
+.page-link.disabled {
+    color: var(--neutral_color-600);
+}

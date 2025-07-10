@@ -156,8 +156,17 @@ a {
   padding: var(--spacing-xl);
 }
 
-.pl-12 {
+.px-12 {
   padding-left: var(--spacing-s)
+}
+
+.px-24 {
+  padding-left: var(--spacing-l);
+  padding-right: var(--spacing-l);
+}
+
+.pt-32 {
+  padding-top: var(--spacing-xl);
 }
 
 .pb-48 {
@@ -174,6 +183,11 @@ a {
   padding-bottom: var(--spacing-s);
 }
 
+.py-24 {
+  padding-top: var(--spacing-l);
+  padding-bottom: var(--spacing-l);
+}
+
 .py-16 {
   padding-top: var(--spacing-m);
   padding-bottom: var(--spacing-m);
@@ -184,12 +198,28 @@ a {
   padding-bottom: var(--spacing-5xl);
 }
 
-.ms-40 {
+.me-8 {
+  margin-right: var(--spacing-xs);
+}
+
+.me-12 {
+  margin-right: var(--spacing-s);
+}
+
+.me-24 {
+  margin-right: var(--spacing-l);
+}
+
+.me-40 {
   margin-right: var(--spacing-2xl);
 }
 
-.ms-48 {
+.me-48 {
   margin-right: var(--spacing-3xl);
+}
+
+.ms-auto {
+  margin-left: auto;
 }
 
 .mb-4 {
@@ -218,6 +248,10 @@ a {
 
 .mb-64 {
   margin-bottom: var(--spacing-5xl);
+}
+
+.mb-80 {
+  margin-bottom: var(--spacing-6xl);
 }
 
 .mx-auto {
@@ -350,6 +384,10 @@ h1 {
   color: var(--primary_color-400);
 }
 
+.bk-primary-200 {
+  background-color: var(--primary_color-200);
+}
+
 .bk-primary-100 {
   background-color: var(--primary_color-100);
 }
@@ -358,6 +396,9 @@ h1 {
   background-color: var(--neutral_color-100);
 }
 
+.border-top-1 {
+  border-top: 1px solid var(--neutral_color-300);
+}
 /* ==元件設定== */
 /* 主選單 */
 .navigationBar-link {
@@ -374,4 +415,25 @@ h1 {
   content:"/";
   padding-left: var(--spacing-s);
   padding-right: var(--spacing-s);
+}
+
+/* 按鈕 */
+.btn {  
+  line-height: var(--tw-label-line-height);
+  letter-spacing: var(--tw-letter-spacing);
+  border: 0 none transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.banner-btn {
+  font-size: var(--tw-label-md);
+  font-weight: var(--tw-weight-500);
+  padding-top: var(--spacing-s);
+  padding-bottom: var(--spacing-s);
+  padding-left: var(--spacing-l);
+  padding-right: var(--spacing-l);
+  background-color: var(--neutral_color-900);
+  color: var(--neutral_color-0);
+  border-radius: var(--spacing-xxs);
 }
