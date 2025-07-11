@@ -1,45 +1,22 @@
-a {
-  color: var(--primary_color-400);
+/* 主標題 */
+.title {
+    padding: 7px 0;
 }
 
-.content-bottom-line {
-    border-bottom: 1px solid var(--neutral_color-300);
-}
-
-/* Header */
-.header {
-    background: transparent url("../imag/hero.png") no-repeat center center / cover;
-    text-align: center;
-}
-
-.pageTitle {
-    padding: 151px 0;
-}
-
-/* 品牌歷程 */
-.history {
-    list-style: inside disc;
-    padding-left: 10px;
-}
-
-.history-items span:nth-child(2) {
-    padding-left: 8px;
-    margin-left: 8px;
-    border-left: 1px solid var(--neutral_color-900);
-}
-
-/* 品牌理念 */
-.brandConcept-items {
-    border-left: 3px solid var(--neutral_color-300);
-}
-
-/* 品牌小故事 */
-.brandStory-items {
-    text-decoration: underline;
-    text-underline-offset: 8px;
-}
-
-.brandStory-items i {
+/* 商品選單 */
+.menu-link.active {
     color: var(--primary_color-400);
-    margin-right: 10.5px;
+}
+
+/* 分頁 */
+.page-link.btn {
+    padding: 8px 15.5px;
+}
+
+.page-link.active {
+    background-color: var(--primary_color-300);
+}
+
+.page-link.disabled {
+    color: var(--neutral_color-600);
 }
