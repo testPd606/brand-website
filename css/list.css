@@ -1,20 +1,16 @@
+/* 主標題 */
+.title {
+    padding: 7px 0;
+}
+
 /* 商品選單 */
-.menu-title {
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-
-.menu-items:not(:last-child) {
-    margin-bottom: 20px;
-}
-
 .menu-link.active {
     color: var(--primary_color-400);
 }
 
 /* 分頁 */
 .page-link.btn {
-    padding: 8px 15px;
+    padding: 8px 15.5px;
 }
 
 .page-link.active {

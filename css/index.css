@@ -16,11 +16,6 @@ a {
     padding: 151px 0;
 }
 
-/* 區塊引用 */
-.blockQuote {    
-    text-align: center;
-}
-
 /* 品牌歷程 */
 .history {
     list-style: inside disc;
