@@ -1,12 +1,8 @@
-a {
-  color: var(--primary_color-400);
-}
-
 .content-bottom-line {
     border-bottom: 1px solid var(--neutral_color-300);
 }
 
-/* Header */
+/* 表頭 */
 .header {
     background: transparent url("../imag/hero.png") no-repeat center center / cover;
     text-align: center;
@@ -22,7 +18,7 @@ a {
     padding-left: 10px;
 }
 
-.history-items span:nth-child(2) {
+.history-items span {
     padding-left: 8px;
     margin-left: 8px;
     border-left: 1px solid var(--neutral_color-900);
@@ -37,6 +33,7 @@ a {
 .brandStory-items {
     text-decoration: underline;
     text-underline-offset: 8px;
+    color: var(--primary_color-400);
 }
 
 .brandStory-items i {

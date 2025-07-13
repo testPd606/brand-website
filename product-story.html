@@ -10,6 +10,25 @@
     <link rel="stylesheet" href="./css/story.css">
 </head>
 <body>
+    <!-- 導覽列 -->
+    <nav class="container-lg d-flex align-items-center py-16">
+        <!-- 主選單 -->
+        <a href="#" class="navigationBar-link me-48">
+            <img src="./imag/logo.svg" alt="LOGO">
+        </a>
+        <ul class="d-flex align-items-center">
+            <li>
+                <a href="index.html" class="navigationBar-link d-block me-40 py-12">商品列表</a>
+            </li>
+            <li>
+                <a href="product-story.html" class="navigationBar-link d-block py-12">品牌故事</a>
+            </li>
+        </ul>
+        <!-- 會員登入 -->
+        <a href="#"  class="member-login">
+            <img src="./imag/person.svg" alt="會員登入">
+        </a>
+    </nav>
     <header class="header">
         <div class="container-lg">
             <div class="pageTitle">
@@ -18,7 +37,7 @@
             </div>
         </div>
     </header>
-    <main class="py-64">
+    <main class="pt-64">
         <!-- 區塊引用 -->
         <section class="container-lg">
             <div class="row">
@@ -55,24 +74,30 @@
             </div>
         </div>
         <!-- 品牌歷程 -->
-        <section class="container-lg">
+        <section class="container-lg mb-48">
             <div class="row">
                 <div class="col-8 mx-auto">
                     <h2 class="h4 mb-24">品牌歷程</h2>
-                    <ol class="history content-bottom-line pb-48 mb-48">
-                        <li class="history-items tw-paragraph-md mb-12"><span>2019</span><span>在台北東區的創意工作室誕生。</span></li>
-                        <li class="history-items tw-paragraph-md mb-12"><span>2021</span><span>首款【Urban Flow 系列】誕生，結合針織鞋面與城市靈感。</span></li>
-                        <li class="history-items tw-paragraph-md"><span>2025</span><span>已成為台灣街頭生活風格的代表鞋履品牌之一。</span></li>
+                    <ol class="history content-bottom-line pb-48">
+                        <li class="history-items tw-paragraph-md mb-12">
+                            <time datatime="2019">2019</time><span>在台北東區的創意工作室誕生。</span>
+                        </li>
+                        <li class="history-items tw-paragraph-md mb-12">
+                            <time datatime="2021">2021</time><span>首款【Urban Flow 系列】誕生，結合針織鞋面與城市靈感。</span>
+                        </li>
+                        <li class="history-items tw-paragraph-md">
+                            <time datatime="2025">2025</time><span>已成為台灣街頭生活風格的代表鞋履品牌之一。</span>
+                        </li>
                     </ol>
                 </div>
             </div>
         </section>
         <!-- 品牌理念 -->
-        <section class="container-lg">
+        <section class="container-lg mb-48">
             <div class="row">
                 <div class="col-8 mx-auto">
                     <h2 class="h4 mb-24">品牌理念</h2>
-                    <ul class="content-bottom-line pb-48 mb-48">
+                    <ul class="content-bottom-line pb-48">
                         <li class="brandConcept-items ps-12 tw-paragraph-md mb-12">機能先行：輕量、透氣、防潑水</li>
                         <li class="brandConcept-items ps-12 tw-paragraph-md mb-12">美學延伸：極簡線條 + 實驗配色</li>
                         <li class="brandConcept-items ps-12 tw-paragraph-md mb-12">永續材料：選用環保合成皮革與可回收包裝</li>
@@ -85,28 +110,62 @@
             <div class="row">
                 <div class="col-8 mx-auto">
                     <h2 class="h4 mb-24">品牌小故事</h2>
-                    <div class="content-bottom-line pb-48">                            
-                        <a class="brandStory-items d-block tw-label-md mb-12" href="#" title="創辦人筆記：我們為什麼想做鞋？">
-                            <i class="bi bi-arrow-up-right"></i>
-                            創辦人筆記：我們為什麼想做鞋？                                                                
-                        </a>                            
-                        <a class="brandStory-items d-block tw-label-md mb-12" href="#" title="穿上 URBNSTEP 的他們">
-                            <i class="bi bi-arrow-up-right"></i>
-                            穿上 URBNSTEP 的他們                            
-                        </a>
-                        <a class="brandStory-items d-block tw-label-md mb-12" href="#" title="URBNSTEP 鞋履的誕生過程">
-                            <i class="bi bi-arrow-up-right"></i>
-                            URBNSTEP 鞋履的誕生過程                            
-                        </a>
-                    </div>
+                    <ul class="content-bottom-line pb-48">
+                        <li class="mb-12">
+                            <a class="brandStory-items d-block tw-label-md" href="#" title="創辦人筆記：我們為什麼想做鞋？">
+                                <i class="bi bi-arrow-up-right"></i>
+                                創辦人筆記：我們為什麼想做鞋？          
+                            </a> 
+                        </li>
+                        <li class="mb-12">
+                            <a class="brandStory-items d-block tw-label-md" href="#" title="穿上 URBNSTEP 的他們">
+                                <i class="bi bi-arrow-up-right"></i>
+                                穿上 URBNSTEP 的他們                            
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="brandStory-items d-block tw-label-md" href="#" title="URBNSTEP 鞋履的誕生過程">
+                                <i class="bi bi-arrow-up-right"></i>
+                                URBNSTEP 鞋履的誕生過程                            
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
+        <!-- 呼籲行動 -->
+        <div class="pt-64">
+            <div class="banner bk-primary-200">
+                <div class="container-lg">
+                    <div class="d-flex justify-content-center align-items-center py-24">
+                        <h2 class="h4 me-24">加入會員取得 9 折優惠</h2>
+                        <button type="button" class="btn btn-dark borderRadius-4">馬上註冊</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="footer bk-neutral-100 py-64">
+        <!-- 次選單 -->
+        <nav class="container-lg d-flex align-items-center mb-24">
+            <a href="#" class="navigationBar-link me-48">
+                <img src="./imag/logo.svg" alt="LOGO">
+            </a>
+            <ul class="d-flex align-items-center ms-auto">
+                <li>
+                    <a href="#" class="navigationBar-link d-block me-40 py-12">商品列表</a>
+                </li>
+                <li>
+                    <a href="product-story.html" class="navigationBar-link d-block py-12" target="_blank">品牌故事</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- 版權 -->
         <div class="container-lg">
-            <p class="tw-paragraph-sm mb-4 text-neutral-600">Copyright ©2025 URBNSTYLE</p>
-            <p class="tw-paragraph-sm text-neutral-600">All Rights Reserved.</p>
+            <div class="border-top-1 pt-32">
+                <p class="tw-paragraph-sm mb-4 text-neutral-600">Copyright ©2025 URBNSTYLE</p>
+                <p class="tw-paragraph-sm text-neutral-600">All Rights Reserved.</p>
+            </div>
         </div>
     </footer>
 </body>  

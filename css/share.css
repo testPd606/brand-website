@@ -105,6 +105,7 @@
 .member-login {
   display: block;
   padding: var(--spacing-s);
+  margin-left: auto;
 }
 
 .member-login img {
@@ -125,23 +126,28 @@
 
 /* 按鈕 */
 .btn {
+  font-size: var(--tw-label-md);
+  font-weight: var(--tw-weight-500);
   line-height: var(--tw-label-line-height);
   letter-spacing: var(--tw-letter-spacing);
+  text-align: center;
   padding-top: var(--spacing-s);
   padding-bottom: var(--spacing-s);
+  padding-left: var(--spacing-l);
+  padding-right: var(--spacing-l);
   background-color: transparent;
-  border: 0 none;
+  border: 0 none transparent;
   cursor: pointer;
 }
 
-.banner-btn {
-  font-size: var(--tw-label-md);
-  font-weight: var(--tw-weight-500);  
+.btn-dark {
   background-color: var(--neutral_color-900);
   color: var(--neutral_color-0);
-  border-radius: var(--spacing-xxs);
-  padding-left: var(--spacing-l);
-  padding-right: var(--spacing-l);
+}
+
+.btn-white {
+  background-color: var(--neutral_color-0);
+  border: 1px solid var(--neutral_color-900);
 }
 
 /* 盒模型 */
@@ -213,6 +219,10 @@ a {
 }
 
 /* 圓角 */
+.borderRadius-4 {
+  border-radius: var(--spacing-xxs);
+}
+
 .borderRadius-12 {
   border-radius: var(--radius-md);
 }
@@ -307,6 +317,10 @@ a {
 
 .pt-48 {
   padding-top: var(--spacing-3xl);
+}
+
+.pt-64 {
+  padding-top: var(--spacing-5xl);
 }
 
 .pb-12 {
@@ -427,6 +441,15 @@ a {
   margin-right: var(--spacing-xxs-burden);
 }
 
+/* 尺寸 */
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
 /* 文字字體 */
 .h1, .h2, .h3, .h4, .h5, .h6 {
   line-height: var(--tw-heading-line-height);
@@ -462,14 +485,17 @@ a {
   font-weight: var(--tw-weight-500);
 }
 
+[class*=".tw-paragraph-"] {
+  font-weight: var(--tw-weight-400);
+}
+
 .tw-paragraph-md {
   font-size: var(--tw-paragraph-md);
-  font-weight: var(--tw-weight-400);
+  
 }
 
 .tw-paragraph-sm {
   font-size: var(--tw-paragraph-sm);
-  font-weight: var(--tw-weight-400);
 }
 
 /* 文字權重 */
@@ -490,10 +516,6 @@ a {
 }
 
 /* 文字顏色 */
-.text-danger-300 {
-  color: var(--danger-300);
-}
-
 .text-neutral-white {
   color: var(--neutral_color-0);
 }
@@ -512,11 +534,6 @@ a {
 
 .text-primary-400 {
   color: var(--primary_color-400);
-}
-
-/* 文字底線 */
-.text-decoration {
-  text-decoration: line-through;
 }
 
 /* 文字居中 */

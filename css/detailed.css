@@ -1,3 +1,41 @@
+/* 商品詳情頁格線 */
+.row-detailed {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: var(--spacing-xxs-burden);
+    margin-right: var(--spacing-xxs-burden);
+}
+
+.col-detailed-6 {
+    width: calc(100%/12*6);
+    padding-left: var(--spacing-xxs);
+    padding-right: var(--spacing-xxs);
+}
+
+/* 價格 */
+.original-price {
+    font-size: var(--tw-paragraph-sm);
+    font-weight: var(--tw-weight-400);
+    line-height: var(--tw-label-line-height);
+    color: var(--neutral_color-500);
+}
+
+/* 顏色 */
+.product {
+    width: var(--spacing-5xl);
+}
+
+.product-color {
+    font-size: var(--tw-label-md);
+    text-align: center;
+    color: var(--neutral_color-600);
+}
+
+.situation {
+    font-size: var(--tw-paragraph-sm);
+    color: var(--danger-300);     
+}
+
 /* 商品詳情按鈕 */
 .option-btn {
     width: 100%;
@@ -11,18 +49,27 @@
     padding-right: var(--spacing-l);
 }
 
-.option-btn.active {
+.option-btn.active,
+.option-btn:hover {
     border-color: var(--neutral_color-900);
 }
 
-/* 加入收藏 & 門市預約試穿 */
-.shopping-button {
+/* 加入收藏&門市預約試穿 */
+.shoppingButton {
     width: 100%;
-    font-size: var(--tw-label-md);
-    font-weight: var(--tw-weight-500);
-    text-align: center;
-    border: 1px solid var(--neutral_color-900);
     border-radius: var(--spacing-xxs);
+}
+
+/* 商品說明 */
+.product-items {
+    padding-top: var(--spacing-s);
+    padding-bottom: var(--spacing-s);
+    border-bottom: 1px solid var(--neutral_color-300);
+}
+
+.product-content {
+    font-size: var(--tw-paragraph-md);
+    color: var(--neutral_color-600);
 }
 
 /* 你可能也喜歡... */
