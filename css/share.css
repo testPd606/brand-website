@@ -126,6 +126,13 @@
 
 /* 按鈕 */
 .btn {
+  padding: 0;
+  background-color: transparent;
+  border: 0 none transparent;
+  cursor: pointer;
+}
+
+.btn-primary {
   font-size: var(--tw-label-md);
   font-weight: var(--tw-weight-500);
   line-height: var(--tw-label-line-height);
@@ -135,12 +142,9 @@
   padding-bottom: var(--spacing-s);
   padding-left: var(--spacing-l);
   padding-right: var(--spacing-l);
-  background-color: transparent;
-  border: 0 none transparent;
-  cursor: pointer;
 }
 
-.btn:hover {
+.btn-primary:hover {
   background-color: var(--neutral_color-100);
 }
 
