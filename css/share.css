@@ -145,9 +145,18 @@
   color: var(--neutral_color-0);
 }
 
+.btn-dark:hover {
+  background-color: var(--neutral_color-700);
+}
+
 .btn-white {
   background-color: var(--neutral_color-0);
   border: 1px solid var(--neutral_color-900);
+}
+
+.btn-white:hover {
+  background-color: var(--neutral_color-900);
+  color: var(--neutral_color-0);
 }
 
 /* 盒模型 */
@@ -174,6 +183,10 @@ img {
 a {
   color: var(--neutral_color-900);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary_color-500);
 }
 
 /* 容器 */
