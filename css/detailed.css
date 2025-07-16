@@ -2,14 +2,14 @@
 .row-detailed {
     display: flex;
     flex-wrap: wrap;
-    margin-left: var(--spacing-xxs-burden);
-    margin-right: var(--spacing-xxs-burden);
+    margin-left: var(--spacing-xxxs-burden);
+    margin-right: var(--spacing-xxxs-burden);
 }
 
 .col-detailed-6 {
     width: calc(100%/12*6);
-    padding-left: var(--spacing-xxs);
-    padding-right: var(--spacing-xxs);
+    padding-left: var(--spacing-xxxs);
+    padding-right: var(--spacing-xxxs);
 }
 
 /* 價格 */
@@ -44,7 +44,7 @@
     text-align: center;
     background-color: var(--neutral_color-0);
     border: 1px solid var(--neutral_color-300);
-    border-radius: var(--spacing-xxs);
+    border-radius: var(--spacing-xxxs);
     padding-left: var(--spacing-l);
     padding-right: var(--spacing-l);
 }
@@ -57,7 +57,7 @@
 /* 加入收藏&門市預約試穿 */
 .shoppingButton {
     width: 100%;
-    border-radius: var(--spacing-xxs);
+    border-radius: var(--spacing-xxxs);
 }
 
 /* 商品說明 */

@@ -1,0 +1,55 @@
+/* components */
+/* 麵包屑 */
+.navigationBar-link.disabled {
+  color: var(--neutral_color-600);
+}
+
+.breadcrumb-items + .breadcrumb-items::before {
+  content:"/";
+  padding-left: var(--spacing-s);
+  padding-right: var(--spacing-s);
+  color: var(--neutral_color-300);
+}
+
+/* 按鈕 */
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: 0 none transparent;
+  cursor: pointer;
+}
+
+.btn-primary {
+  font-size: var(--tw-label-md);
+  font-weight: var(--tw-weight-500);
+  line-height: var(--tw-label-line-height);
+  letter-spacing: var(--tw-letter-spacing);
+  text-align: center;
+  padding-top: var(--spacing-s);
+  padding-bottom: var(--spacing-s);
+  padding-left: var(--spacing-l);
+  padding-right: var(--spacing-l);
+}
+
+.btn-primary:hover {
+  background-color: var(--neutral_color-100);
+}
+
+.btn-dark {
+  background-color: var(--neutral_color-900);
+  color: var(--neutral_color-0);
+}
+
+.btn-dark:hover {
+  background-color: var(--neutral_color-700);
+}
+
+.btn-white {
+  background-color: var(--neutral_color-0);
+  border: 1px solid var(--neutral_color-900);
+}
+
+.btn-white:hover {
+  background-color: var(--neutral_color-900);
+  color: var(--neutral_color-0);
+}
