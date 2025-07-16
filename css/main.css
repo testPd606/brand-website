@@ -1,10 +1,10 @@
 /* main.css */
-@import url(reset200802.css);
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+@import url("reset200802.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-@import url(base.css);
-@import url(components.css);
-@import url(utilities.css);
-@import url(index.css);
-@import url(detailed.css);
-@import url(story.css);
+@import url("base.css");
+@import url("components.css");
+@import url("utilities.css");
+@import url("index.css");
+@import url("detailed.css");
+@import url("story.css");
