@@ -90,11 +90,20 @@
     padding-bottom: var(--spacing-s);
   }
 
+  .py-md-16 {
+    padding-top: var(--spacing-m);
+    padding-bottom: var(--spacing-m);
+  }
+
   .py-md-32 {
     padding-top: var(--spacing-xl);
     padding-bottom: var(--spacing-xl);
   }
 
+  .pt-md-24 {
+    padding-top: var(--spacing-l);
+  }
+  
   .pt-md-32 {
     padding-top: var(--spacing-xl);
   }
@@ -118,9 +127,18 @@
     padding-bottom: var(--spacing-s);
   }
 
+  .py-sm-16 {
+    padding-top: var(--spacing-m);
+    padding-bottom: var(--spacing-m);
+  }
+
   .py-sm-32 {
     padding-top: var(--spacing-xl);
     padding-bottom: var(--spacing-xl);
+  }
+
+  .pt-sm-24 {
+    padding-top: var(--spacing-l);
   }
 
   .pt-sm-32 {
@@ -195,6 +213,10 @@
 }
 
 @media (max-width: 767px) {
+  .mb-md-24 {
+    margin-bottom: var(--spacing-l);
+  }
+  
   .mb-md-32 {
     margin-bottom: var(--spacing-xl);
   }
@@ -221,6 +243,10 @@
 }
 
 @media (max-width: 576px) {
+  .mb-sm-24 {
+    margin-bottom: var(--spacing-l);
+  }
+
   .mb-sm-32 {
     margin-bottom: var(--spacing-xl);
   }
@@ -281,6 +307,10 @@
     font-size: var(--tw-headings-h3);
   }
 
+  .h4-md {
+    font-size: var(--tw-headings-h4);
+  }
+
   .h5-md {
     font-size: var(--tw-headings-h5);
   }
@@ -293,6 +323,10 @@
 @media (max-width:576px) {
   .h3-sm {
     font-size: var(--tw-headings-h3);
+  }
+
+  .h4-sm {
+    font-size: var(--tw-headings-h4);
   }
 
   .h5-sm {
@@ -428,6 +462,16 @@
   align-items: center;
 }
 
+@media (max-width: 767px) {
+  .d-md-none {
+    display: none;
+  }
+
+  .d-md-block {
+    display: block;
+  }
+}
+
 @media (max-width: 576px) {
   .d-sm-none {
     display: none;
@@ -488,7 +532,7 @@
 }
 
 @media (max-width:767px) {
-  .row-md {
+  .row {
     margin-left: var(--spacing-xxs-burden);
     margin-right: var(--spacing-xxs-burden);
   }
@@ -498,16 +542,8 @@
       padding-right: var(--spacing-xxs);
   }
 
-  .col-md-1 {
-    width: calc(100%/4*1);
-  }
-
   .col-md-2 {
     width:calc(100%/4*2);
-  }
-
-  .col-md-3 {
-    width: calc(100%/4*3);
   }
 
   .col-md-4 {
@@ -516,5 +552,16 @@
 }
 
 @media (max-width: 576px) {
+  [class*="col-sm-"] {
+      padding-left: var(--spacing-xxs);
+      padding-right: var(--spacing-xxs);
+  }
 
+  .col-sm-2 {
+    width:calc(100%/4*2);
+  }
+
+  .col-sm-4 {
+    width: 100%;
+  }
 }

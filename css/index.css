@@ -20,3 +20,10 @@
 .page-link.disabled {
     color: var(--neutral_color-600);
 }
+
+@media (max-width: 767px) {
+    /* 主標題 */
+    .title {
+        padding: 9.5px 0;
+    }
+}
