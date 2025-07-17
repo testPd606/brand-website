@@ -51,4 +51,10 @@
     .col-sm-story-4 {
         width: 100%;
     }
+
+    /* 產品介紹標題行距 */
+    .h6-sm-story {
+        font-size: var(--tw-headings-h6);
+        line-height: var(--spacing-l);
+    }
 }

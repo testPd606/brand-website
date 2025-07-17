@@ -259,7 +259,7 @@
     font-size: var(--tw-headings-h5);
   }
 
-  .h6-sm {
+  .h6-md {
     font-size: var(--tw-headings-h6);
   }
 }
@@ -273,7 +273,7 @@
     font-size: var(--tw-headings-h5);
   }
 
-  .h6-md {
+  .h6-sm {
     font-size: var(--tw-headings-h6);
   }
 }
