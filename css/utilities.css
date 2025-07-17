@@ -213,6 +213,10 @@
 }
 
 @media (max-width: 767px) {
+  .mb-md-0 {
+    margin-bottom: 0;
+  }
+
   .mb-md-24 {
     margin-bottom: var(--spacing-l);
   }
@@ -445,6 +449,10 @@
 }
 
 /* 區塊元素 */
+.d-none {
+  display: none;
+}
+
 .d-block {
   display: block;
 }
