@@ -40,3 +40,10 @@
     color: var(--primary_color-400);
     margin-right: 10.5px;
 }
+
+@media (max-width: 576px) {
+    /* 表頭 */
+    .header {
+        background-image: url("../imag/hero-sm.jpg");
+    }
+}
