@@ -456,7 +456,7 @@
 }
 
 @media (max-width:767px) {
-  .row {
+  .row-md {
     margin-left: var(--spacing-xxs-burden);
     margin-right: var(--spacing-xxs-burden);
   }

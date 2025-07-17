@@ -46,4 +46,9 @@
     .header {
         background-image: url("../imag/hero-sm.jpg");
     }
+
+    /* 故事頁網格 */
+    .col-sm-story-4 {
+        width: 100%;
+    }
 }
