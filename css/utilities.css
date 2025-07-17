@@ -85,6 +85,11 @@
     padding-right: var(--spacing-s);
   }
 
+  .py-md-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .py-md-12 {
     padding-top: var(--spacing-s);
     padding-bottom: var(--spacing-s);
