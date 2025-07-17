@@ -211,6 +211,10 @@
     margin-bottom: var(--spacing-xs);
   }
 
+  .me-md-16 {
+    margin-right: var(--spacing-m);
+  }
+
   .ms-md-12 {
     margin-left: var(--spacing-s);
   }
@@ -231,6 +235,10 @@
 
   .mb-sm-8 {
     margin-bottom: var(--spacing-xs);
+  }
+
+  .me-sm-16 {
+    margin-right: var(--spacing-m);
   }
 
   .ms-sm-12 {
