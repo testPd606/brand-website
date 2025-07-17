@@ -14,8 +14,8 @@
 
 /* 品牌歷程 */
 .history {
-    list-style: inside disc;
-    padding-left: 10px;
+    list-style-type: disc;
+    padding-left: var(--spacing-l);
 }
 
 .history-items span {
