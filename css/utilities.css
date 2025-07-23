@@ -370,7 +370,7 @@
   font-weight: var(--tw-weight-500);
 }
 
-[class*=".tw-paragraph-"] {
+[class*="tw-paragraph-"] {
   font-weight: var(--tw-weight-400);
 }
 
