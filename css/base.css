@@ -99,6 +99,16 @@
     box-sizing: border-box;
 }
 
+*.disabled {
+  color: var(--neutral_color-600);
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+*:disabled {
+  pointer-events: none;
+}
+
 body {
     font-family: var(--global-font);
     line-height: var(--tw-label-line-height);

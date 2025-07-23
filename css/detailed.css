@@ -36,7 +36,7 @@
     color: var(--danger-300);     
 }
 
-/* 商品詳情按鈕 */
+/* 尺寸 */
 .option-btn {
     width: 100%;
     font-size: var(--tw-label-md);
@@ -53,7 +53,6 @@
 .option-btn:hover {
     border-color: var(--neutral_color-900);
 }
-
 /* 加入收藏&門市預約試穿 */
 .shoppingButton {
     width: 100%;

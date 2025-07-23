@@ -1,9 +1,5 @@
 /* components */
 /* 麵包屑 */
-.navigationBar-link.disabled {
-  color: var(--neutral_color-600);
-}
-
 .breadcrumb-items + .breadcrumb-items::before {
   content:"/";
   padding-left: var(--spacing-s);
