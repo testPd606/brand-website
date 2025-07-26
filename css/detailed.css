@@ -12,6 +12,24 @@
     padding-right: var(--spacing-xxxs);
 }
 
+@media (max-width: 768px) {
+    .container-md {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .row-md-detailed {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .col-md-detailed-12 {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 /* 價格 */
 .original-price {
     font-size: var(--tw-paragraph-sm);
