@@ -105,6 +105,11 @@
     padding-bottom: var(--spacing-xl);
   }
 
+  .py-md-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   .pt-md-24 {
     padding-top: var(--spacing-l);
   }
