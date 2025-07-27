@@ -56,6 +56,28 @@
 }
 
 /* 尺寸 */
+.row-size {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: var(--spacing-xxxs-burden);
+    margin-right: var(--spacing-xxxs-burden);
+}
+
+[class*="col-size-"] {
+    padding-left: var(--spacing-xxxs);
+    padding-right: var(--spacing-xxxs);
+}
+
+.col-size-4 {
+    width: calc(100%/12*4);
+}
+
+@media (max-width:768px) {
+    .col-size-md-2 {
+        width: calc(100%/4*2);
+    }
+}
+
 .option-btn {
     width: 100%;
     font-size: var(--tw-label-md);
