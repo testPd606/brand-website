@@ -45,6 +45,7 @@
 
 .product-color {
     font-size: var(--tw-label-md);
+    line-height: var(--tw-label-line-height);
     text-align: center;
     color: var(--neutral_color-600);
 }
