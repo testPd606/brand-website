@@ -467,6 +467,10 @@
   display: flex;
 }
 
+.f-wrap {
+  flex-wrap: wrap;
+}
+
 .justify-content-center {
   justify-content: center;
 }
