@@ -160,4 +160,9 @@
         flex-wrap: nowrap;
         overflow-y: scroll;
     }
+
+  .col-md-bestSeller {
+    width: 100%;
+    flex-shrink: 0;
+  }
 }

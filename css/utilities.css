@@ -576,10 +576,6 @@
 }
 
 @media (max-width:768px) {
-  .col-md {
-    width: 100%;
-  }
-
   .col-md-2 {
     width:calc(100%/4*2);
   }
