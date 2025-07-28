@@ -72,8 +72,8 @@
     width: calc(100%/12*4);
 }
 
-@media (max-width:768px) {
-    .col-size-md-2 {
+@media (max-width:960px) {
+    .col-lg-size-2 {
         width: calc(100%/4*2);
     }
 }
