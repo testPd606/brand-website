@@ -492,6 +492,10 @@
   .d-md-block {
     display: block;
   }
+
+  .f-md-reverse-row {
+    flex-direction: row-reverse;
+  }
 }
 
 @media (max-width: 576px) {
