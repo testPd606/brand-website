@@ -247,6 +247,10 @@
     margin-bottom: var(--spacing-xs);
   }
 
+  .me-md-0 {
+    margin-right: 0;
+  }
+
   .me-md-16 {
     margin-right: var(--spacing-m);
   }
