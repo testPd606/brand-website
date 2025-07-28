@@ -580,6 +580,10 @@
     width:calc(100%/4*2);
   }
 
+  .col-md-3 {
+    width: calc(100/4*3);
+  }
+
   .col-md-4 {
     width: 100%;
   }

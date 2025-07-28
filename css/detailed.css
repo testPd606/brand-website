@@ -149,3 +149,10 @@
 .bestSeller-title {
     padding: 9.5px 0px;
 }
+
+@media (max-width: 768px) {
+    .bestSeller-title {
+        padding-top: var(--spacing-xs);
+        padding-bottom: var(--spacing-xs);
+    }
+}
