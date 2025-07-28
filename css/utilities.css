@@ -457,6 +457,16 @@
   width: 50%;
 }
 
+@media (max-width: 768px) {
+  .w-md-15 {
+    width: 15%;
+  }
+
+  .w-md-100 {
+    width: 100%;
+  }
+}
+
 /* 圓角 */
 .borderRadius-4 {
   border-radius: var(--spacing-xxxs);
