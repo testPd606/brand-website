@@ -155,4 +155,9 @@
         padding-top: var(--spacing-xs);
         padding-bottom: var(--spacing-xs);
     }
+
+    .row-md-bestSeller {
+        flex-wrap: nowrap;
+        overflow-y: scroll;
+    }
 }
