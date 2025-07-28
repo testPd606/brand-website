@@ -251,6 +251,10 @@
     margin-right: 0;
   }
 
+  .me-md-8 {
+    margin-right: var(--spacing-xs);
+  }
+
   .me-md-16 {
     margin-right: var(--spacing-m);
   }
