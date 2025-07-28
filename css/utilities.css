@@ -554,16 +554,6 @@
 }
 
 @media (max-width:768px) {
-  .row {
-    margin-left: var(--spacing-xxs-burden);
-    margin-right: var(--spacing-xxs-burden);
-  }
-
-  [class*="col-md-"] {
-      padding-left: var(--spacing-xxs);
-      padding-right: var(--spacing-xxs);
-  }
-
   .col-md-2 {
     width:calc(100%/4*2);
   }
