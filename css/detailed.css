@@ -101,6 +101,25 @@
 }
 
 @media (max-width: 768px) {
+    .shoppingButton {
+        padding-left: var(--spacing-s);
+        padding-right: var(--spacing-s);
+        padding-top: var(--spacing-s);
+        padding-bottom: var(--spacing-s);
+    }
+
+    .visually-hidden-button {
+        height: 48px;
+        border: 0 solid transparent;
+    }
+
+    .visually-hidden-button i {
+        font-size: var(--tw-headings-h4);
+        line-height: 1;
+        display: inline-block;
+        height: var(--spacing-l);
+    }
+
     .visually-hidden-button span {
         position: absolute;
         width: 1px;
