@@ -101,7 +101,7 @@
 
 /* 字體顏色 */
 .text-neutral-white {
-  color: var(--neutral_color-0);
+  color: var(--neutral_color-white);
 }
 
 .text-neutral-500 {

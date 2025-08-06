@@ -11,7 +11,7 @@
   --primary_color-400: #57A203;
   --primary_color-500: #477A11;
 
-  --neutral_color-0: #FFFFFF;
+  --neutral_color-white: #FFFFFF;
   --neutral_color-100: #F8F9FA;
   --neutral_color-200: #E9ECEF;
   --neutral_color-300: #DEE2E6;
@@ -91,7 +91,7 @@
   --text-secondary: var(--neutral_color-600);
   --text-muted: var(--neutral_color-500);
   --text-highlight: var(--primary_color-400);
-  --text-on-dark: var(--neutral_color-0);
+  --text-on-dark: var(--neutral_color-white);
 }
 
 *,*::before,
