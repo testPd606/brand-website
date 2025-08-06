@@ -121,7 +121,7 @@
 }
 
 .text-danger-300 {
-  color: var(--danger-300);
+  color: var(--danger_color-300);
 }
 
 /* 字對齊方式 */
