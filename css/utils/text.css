@@ -1,0 +1,136 @@
+/* 文字 */
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: var(--tw-heading-line-height);
+  font-weight: var(--tw-weight-700);
+}
+
+.h1 {
+  font-size: var(--tw-headings-h1);  
+}
+
+.h2 {
+  font-size: var(--tw-headings-h2);
+}
+
+.h3 {
+  font-size: var(--tw-headings-h3);
+}
+
+.h4 {
+  font-size: var(--tw-headings-h4);
+}
+
+.h5 {
+  font-size: var(--tw-headings-h5);
+}
+
+.h6 {
+  font-size: var(--tw-headings-h6);
+}
+
+@media (max-width:768px) {
+  .h3-md {
+    font-size: var(--tw-headings-h3);
+  }
+
+  .h4-md {
+    font-size: var(--tw-headings-h4);
+  }
+
+  .h5-md {
+    font-size: var(--tw-headings-h5);
+  }
+
+  .h6-md {
+    font-size: var(--tw-headings-h6);
+  }
+}
+
+@media (max-width:576px) {
+  .h3-sm {
+    font-size: var(--tw-headings-h3);
+  }
+
+  .h4-sm {
+    font-size: var(--tw-headings-h4);
+  }
+
+  .h5-sm {
+    font-size: var(--tw-headings-h5);
+  }
+
+  .h6-sm {
+    font-size: var(--tw-headings-h6);
+  }
+}
+
+/* 字重*/
+.tw-weight-400 {
+  font-weight: 400;
+}
+
+.tw-weight-500 {
+  font-weight: 500;
+}
+
+.tw-weight-600 {
+  font-weight: 600;
+}
+
+.tw-weight-700 {
+  font-weight: 700;
+}
+
+/* 字體樣式 */
+.tw-label-md {
+  font-size: var(--tw-label-md);
+  font-weight: var(--tw-weight-500);
+}
+
+[class*="tw-paragraph-"] {
+  font-weight: var(--tw-weight-400);
+}
+
+.tw-paragraph-md {
+  font-size: var(--tw-paragraph-md);  
+}
+
+.tw-paragraph-sm {
+  font-size: var(--tw-paragraph-sm);
+}
+
+/* 字體顏色 */
+.text-neutral-white {
+  color: var(--neutral_color-0);
+}
+
+.text-neutral-500 {
+  color: var(--neutral_color-500);
+}
+
+.text-neutral-600 {
+  color: var(--neutral_color-600);
+}
+
+.text-neutral-900 {
+  color: var(--neutral_color-900);
+}
+
+.text-primary-400 {
+  color: var(--primary_color-400);
+}
+
+.text-danger-300 {
+  color: var(--danger-300);
+}
+
+/* 字對齊方式 */
+.text-center {
+  text-align: center;
+}
+
+@media (max-width:768px) {
+ .text-md-left {
+  text-align: left;
+ }  
+}

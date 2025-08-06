@@ -1,0 +1,8 @@
+/* 圓角 */
+.borderRadius-4 {
+  border-radius: var(--spacing-xxxs);
+}
+
+.borderRadius-12 {
+  border-radius: var(--radius-md);
+}
