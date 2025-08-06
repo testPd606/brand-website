@@ -99,7 +99,7 @@
     box-sizing: border-box;
 }
 
-*.disabled {
+*.prohibit {
   color: var(--neutral_color-600);
   pointer-events: none;
   cursor: not-allowed;
