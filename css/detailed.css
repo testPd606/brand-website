@@ -50,11 +50,6 @@
     color: var(--neutral_color-600);
 }
 
-.situation {
-    font-size: var(--tw-paragraph-sm);
-    color: var(--danger-300);     
-}
-
 /* 尺寸 */
 .row-size {
     display: flex;
