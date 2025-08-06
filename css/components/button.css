@@ -3,11 +3,6 @@
   padding: 0;
   background-color: transparent;
   border: 0 none transparent;
-  cursor: pointer;
-  display: block;
-}
-
-.btn-neutral-filled {
   font-size: var(--tw-label-md);
   font-weight: var(--tw-weight-500);
   line-height: var(--tw-label-line-height);
@@ -17,10 +12,16 @@
   padding-bottom: var(--spacing-s);
   padding-left: var(--spacing-l);
   padding-right: var(--spacing-l);
+  cursor: pointer;
+  display: block;
 }
 
-.btn-neutral-filled:hover {
+.btn:hover {
   background-color: var(--neutral_color-100);
+}
+
+.btn-neutral-filled {
+
 }
 
 .btn-dark {
