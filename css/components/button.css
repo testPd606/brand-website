@@ -1,6 +1,5 @@
 /* 按鈕 */
 .btn {
-  padding: 0;
   background-color: transparent;
   border: 0 none transparent;
   border-radius: var(--spacing-xxxs);
