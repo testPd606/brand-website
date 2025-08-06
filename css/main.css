@@ -12,6 +12,6 @@
 @import "./utils/sizing.css";
 @import "./utils/spacing.css";
 @import "./utils/text.css";
-@import "./pages/story.css";
-@import "./pages/detailed.css";
+@import "./pages/product-story.css";
+@import "./pages/product-detailed.css";
 @import "./pages/index.css";
