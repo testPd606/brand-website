@@ -44,7 +44,7 @@
 @media (max-width: 767px) {
     /* 表頭 */
     .header {
-        background-image: url("../imag/hero-sm.jpg");
+        background-image: url("../../imag/hero-sm.jpg");
     }
 
     .pageTitle {
