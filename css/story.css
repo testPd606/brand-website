@@ -51,20 +51,9 @@
         padding: 87px 0;
     }
 
-    /* 故事頁網格 */
-    .col-md-story-4 {
-        width: 100%;
-        padding-left: var(--spacing-s);
-        padding-right: var(--spacing-s);
-    }
-
     /* 產品介紹標題行距 */
     .h6-md-story {
         font-size: var(--tw-headings-h6);
         line-height: var(--spacing-l);
     }
-}
-
-@media (max-width: 576px) {
-
 }
