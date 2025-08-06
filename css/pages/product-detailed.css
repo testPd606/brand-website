@@ -43,6 +43,12 @@
     width: var(--spacing-5xl);
 }
 
+.product-color-btn {
+    padding: 0;
+    border: 0 solid transparent;
+    background-color: transparent;
+}
+
 .product-color-text {
     font-size: var(--tw-label-md);
     line-height: var(--tw-label-line-height);
