@@ -3,6 +3,7 @@
   padding: 0;
   background-color: transparent;
   border: 0 none transparent;
+  border-radius: var(--spacing-xxxs);
   font-size: var(--tw-label-md);
   font-weight: var(--tw-weight-500);
   line-height: var(--tw-label-line-height);
