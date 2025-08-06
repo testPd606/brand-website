@@ -47,6 +47,7 @@
     padding: 0;
     border: 0 solid transparent;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .product-color-text {
