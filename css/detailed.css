@@ -39,11 +39,11 @@
 }
 
 /* 顏色 */
-.product {
+.product-color {
     width: var(--spacing-5xl);
 }
 
-.product-color {
+.product-color-text {
     font-size: var(--tw-label-md);
     line-height: var(--tw-label-line-height);
     text-align: center;
