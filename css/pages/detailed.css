@@ -77,12 +77,18 @@
     width: 100%;
     font-size: var(--tw-label-md);
     font-weight: var(--tw-weight-500);
+    line-height: var(--tw-label-line-height);
+    letter-spacing: var(--tw-letter-spacing);
     text-align: center;
     background-color: var(--neutral_color-white);
     border: 1px solid var(--neutral_color-300);
     border-radius: var(--spacing-xxxs);
+    padding-top: var(--spacing-s);
+    padding-bottom: var(--spacing-s);
     padding-left: var(--spacing-l);
     padding-right: var(--spacing-l);
+    cursor: pointer;
+    display: block;
 }
 
 .option-btn.active,
