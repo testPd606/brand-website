@@ -1,21 +1,21 @@
 /* 背景顏色 */
-.bk-primary-200 {
+.bg-primary-200 {
   background-color: var(--primary_color-200);
 }
 
-.bk-primary-100 {
+.bg-primary-100 {
   background-color: var(--primary_color-100);
 }
 
-.bk-neutral-white {
+.bg-neutral-white {
   background-color: var(--neutral_color-white);
 }
 
-.bk-neutral-100 {
+.bg-neutral-100 {
   background-color: var(--neutral_color-100);
 }
 
-.bk-neutral-900 {
+.bg-neutral-900 {
   background-color: var(--neutral_color-900);
 }
 
