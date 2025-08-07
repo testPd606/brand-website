@@ -1,6 +1,6 @@
 /* 圓角 */
 .borderRadius-4 {
-  border-radius: var(--spacing-sm);
+  border-radius: var(--radius-sm);
 }
 
 .borderRadius-12 {
